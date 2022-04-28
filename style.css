@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-color: black;
+  height: 20rem;
+}
+
+figure {
+  border: 0.5rem solid rgb(255, 255, 255);
+  width: 20rem;
+  /* display: block; */
+  box-sizing: content-box;
+  position: relative;
+  margin: 0 auto;
+  top: 1.5rem;
+}
+
+img {
+  width: 20rem;
+  display: block;
+  position: relative;
+}
+
+.first,
+.last {
+  background-color: rgba(65, 116, 160, 0.753);
+  border: 0.4rem solid white;
+  width: 7rem;
+  border-radius: 5rem;
+  padding: 0.4rem 0.5rem;
+  position: absolute;
+  /* right: 65rem; */
+  left: 15rem;
+}
+
+.first {
+  top: 1rem;
+}
+
+.last {
+  top: 5rem;
+}
+
+.quote {
+  color: rgb(165, 36, 36);
+  border: 0.3rem solid rgb(61, 161, 86);
+  background-color: aquamarine;
+  width: fit-content;
+  position: sticky;
+  margin: -6rem auto;
+  top: 0.5rem;
+}
+
+main {
+  margin-top: 11rem;
+}
