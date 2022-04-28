@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.main-container {
+  /* margin: auto;
+  width: 100%;
+  position: relative; */
+  background: rgb(0, 0, 0);
+  overflow: hidden;
+  height: 11rem;
+}
+
+.background {
+  /* height: 11rem; */
+  /* width: 100%; */
+  background-color: black;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 15rem;
+  /* overflow: hidden; */
+  top: 1rem;
+
+  /* border: 5px solid white; */
+}
+
+.figure {
+  border: 5px solid white;
+  /* position: relative; */
+  /* left: 38.5rem;
+  top: 0.5rem; */
+  /* width: 20rem; */
+  /* width: 33%; */
+  /* margin: auto;
+  text-align: center; */
+}
+
+img {
+  width: 100%;
+  /* position: relative; */
+  /* left: 38.5rem;
+  top: 0.5rem; */
+  /* width: 100%; */
+  display: block;
+  height: auto;
+}
+/* 
+.first {
+  /* border: 3px solid green;
+  width: 5.5rem;
+  background-color: rgba(250, 235, 215, 0.555);
+
+  padding: 0.3rem 1rem;
+
+  border-radius: 1.5rem; */
+
+.first,
+.second {
+  text-align: left;
+  position: absolute;
+  /* left: 24rem; */
+  border: 3px solid green;
+  width: 5.5rem;
+  background-color: rgba(250, 235, 215, 0.555);
+
+  padding: 0.3rem 1rem;
+
+  border-radius: 1.5rem;
+  right: -30px;
+}
+
+.first {
+  top: 2rem;
+}
+
+.second {
+  top: 5rem;
+}
+
+.text {
+  color: white;
+  position: sticky;
+  top: 10rem;
+  /* left: 1rem; */
+  margin: 0 auto;
+  background-color: rgb(30, 99, 99);
+  border: 5px solid white;
+  width: fit-content;
+}
