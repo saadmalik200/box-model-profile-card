@@ -1,12 +1,15 @@
 # Profile Card
 
-Create the "card" element shown in the reference image below -
-
-![](reference.png)
 
 ## Link
 
 - Live Site URL: [https://saadmalik200.github.io/box-model-profile-card/](https://saadmalik200.github.io/box-model-profile-card/)
+
+## Challenge
+
+Create the "card" element shown in the reference image below -
+
+![](reference.png)
 
 
 ### Instructions
